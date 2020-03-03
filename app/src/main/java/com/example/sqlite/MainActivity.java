@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         conexion conn = new conexion();
+         conexion conn = new conexion(this,"bd_prueba",null ,1);
     }
 }
